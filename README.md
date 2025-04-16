@@ -12,14 +12,13 @@ Prelovedly adalah platform e-commerce yang dirancang untuk memudahkan aktivitas 
 - 🔐 Registrasi & Login
 - 🔎 Pencarian Barang
 - 🛒 Pembelian Produk
-- 💳 Pembayaran Digital
 - 💬 Chat dengan Penjual
 - 🌟 Memberikan Ulasan
 
 ### 🛍️ Untuk Penjual
 - 🔐 Login Akun Penjual
 - 📦 Kelola Barang Dagangan
-- 📤 Proses Pengiriman Barang
+- 📤 Mengiriman Barang
 - 💬 Chat dengan Pembeli
 
 ### 🛠️ Untuk Admin
@@ -34,21 +33,8 @@ Prelovedly adalah platform e-commerce yang dirancang untuk memudahkan aktivitas 
 - 💻 **Web-Based Application** (akses via browser)
 - 📱 **Mobile-Friendly** (Android/iOS)
 - 🖥️ **Cross-Platform** (Windows & macOS)
-- 🔐 Autentikasi pengguna melalui Email / No. HP
 - 🔗 Protokol komunikasi: **TCP/IP**
 - 📶 Syarat: Koneksi Internet stabil
-
----
-
-## 🔒 Keamanan & Privasi
-
-Prelovedly dibangun dengan memperhatikan aspek keamanan:
-- ✅ Autentikasi & Otorisasi Akses
-- ✅ Proteksi Data Transaksi & Akun
-- ✅ Kepatuhan terhadap:
-  - UU No.11 Tahun 2008 (ITE)
-  - UU No.27 Tahun 2022 (PDP)
-  - Permen No.20 Tahun 2016 (Data Pribadi Elektronik)
 
 ---
 
