@@ -16,7 +16,7 @@ Prelovedly adalah platform e-commerce yang dirancang untuk memudahkan aktivitas 
 - 🌟 Memberikan Ulasan
 
 ### 🛍️ Untuk Penjual
-- 🔐 Login Akun Penjual
+- 🔐 Registrasi & Login
 - 📦 Kelola Barang Dagangan
 - 📤 Mengiriman Barang
 - 💬 Chat dengan Pembeli
@@ -60,11 +60,11 @@ Prelovedly adalah platform e-commerce yang dirancang untuk memudahkan aktivitas 
 ## 🧠 Tim Pengembang
 
 | Nama                 | NPM         | Kontribusi                |
-|----------------------|-------------|----------------------------|
+|----------------------|-------------|---------------------------|
 | Allisya Syakdari     | 2317051017  | Desain Admin              |
 | Sulthon A. Setiawan  | 2317051099  | Desain Penjual            |
 | Purwati Ayu Utami    | 2357051007  | Desain Login & Pembeli    |
-| Zahra Agriphinna     | 2357051022  | Dokumentasi & UI          |
+| Zahra Agriphinna     | 2357051022  | Desain Pembeli            |
 
 ---
 
