@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>QRIS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <style>
+        html, body {
+        height: 100%;
+        }
+        body {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Poppins', sans-serif;
+        background-color: #FFE3E8;
+        }
+        main {
+        flex: 1;
+        }
+        .navbar {
+        background-color: white !important;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+        .navbar-brand {
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: #FFB6C1;
+        }
+        .btn-success {
+        background-color: #FFB6C1;
+        border: none;
+        color: white;
+        }
+        .btn-success:hover {
+        background-color: #ff99aa;
+        color: white;
+        }
+        .qr-img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 16px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+        h3 {
+        color: #333;
+        }
+        .form-label {
+        font-weight: 500;
+        color: #555;
+        }
+        footer {
+        background-color: white;
+        color: #FFB6C1;
+        padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Prelovedly</a>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <main class="container my-5"></main>
+        <div class="container my-5">
+            <h3 class="text-center fw-semibold mb-4">Scan the QRIS to Pay</h3>
+            <div class="text-center mb-4">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?data=INV123456&size=250x250" alt="QR Code" class="qr-img" />
+                <p class="text-muted mt-2">Scan with your e-wallet app</p>
+            </div>
+
+            <div class="mb-3">
+                <label for="bukti" class="form-label">Upload Payment Proof</label>
+                <input type="file" class="form-control" id="bukti" accept="image/*" required />
+            </div>
+
+            <button class="btn btn-success w-100" onclick="confirmPayment()">Confirm Payment</button>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 Prelovedly. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function confirmPayment() {
+            const proof = document.getElementById('bukti').files.length;
+            if (proof === 0) {
+            alert("Please upload your payment proof first.");
+            } else {
+            window.location.href = "pesanan.html";
+            }
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
